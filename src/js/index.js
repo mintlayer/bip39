@@ -3082,6 +3082,13 @@
             },
         },
         {
+            name: "ML - Mintlayer",
+            onSelect: function() {
+                network = libs.bitcoin.networks.bitcoin;
+                setHdCoin(19788);
+            },
+        },
+        {
             name: "MNX - Minexcoin",
             onSelect: function() {
                 network = libs.bitcoin.networks.minexcoin;
